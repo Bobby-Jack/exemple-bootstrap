@@ -1,3 +1,3 @@
-#installation
+# installation
 npm i
 
