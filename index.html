@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/css/style.css">
+    <title>Document</title>
+
+</head>
+<body class="m-0 p-0">
+    <div class="container-fluid" >
+            <!-- ce menu disparait après 576px de largeur grace à d-sm-none-->
+            <div class="d-block d-sm-none bg-info height-base">
+                menu telephone
+            </div>
+            <!-- ce menu aparait après 576px de largeur grace à d-sm-block-->
+            <div class="d-none w-100 d-sm-block bg-perso height-base">
+                menu PC
+            </div>
+    </div>
+    <div class="container">
+        <!-- une balise avec la classe row contient des balises ayant la classe col-X
+            X étant une valeur allant de 1 à 12 et 12 représentant 100%
+            de la taille de la row -->
+        <div class="row  text-light">
+            <!-- ici, les 4 balises ont la classe col-3 (4*3 = 12 = 100% de la row)  -->
+            <!-- col-lg-6 indique que ces div prendront la moitié de la row quand l'écran dépasse 992px -->
+            <!-- puisque il y a 4 div (4*6 = 24 = 2*12) ces dernière vont s'organiser sur deux ligne quand il sont sur grand écran -->
+            <div class=" bg-danger col-3 col-lg-6 text-center text-warning height-menu">salut</div>
+            <div class=" bg-perso col-3 col-lg-6 text-center height-menu">salut</div>
+            <div class=" bg-info col-3 col-lg-6 text-center height-menu">salut</div>
+            <div class=" bg-warning col-3 col-lg-6 text-center height-menu">salut</div>
+        </div>
+        
+    </div>    
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>

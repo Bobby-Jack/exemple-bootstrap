@@ -1,0 +1,18 @@
+@import "../../node_modules/bootstrap/dist/css/bootstrap.css";
+.height-base {
+  height: 200px;
+}
+
+.height-menu {
+  height: 80px;
+}
+
+.bg-danger {
+  background-color: #7a7aff !important;
+}
+
+.bg-perso {
+  background-color: #6e2966;
+}
+
+/*# sourceMappingURL=style.css.map */
